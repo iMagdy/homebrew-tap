@@ -1,6 +1,6 @@
 # iMagdy Homebrew Tap
 
-Homebrew tap for `iMagdy` command-line tools.
+Homebrew tap for my command-line tools.
 
 ## Install skm
 
