@@ -1,26 +1,26 @@
 class Ktesio < Formula
   desc "Agentic skills package manager"
   homepage "https://github.com/iMagdy/ktesio"
-  version "0.3.0"
+  version "0.3.1"
   license "Apache-2.0"
 
   depends_on "git"
 
   on_macos do
     on_arm do
-      url "https://github.com/iMagdy/ktesio/releases/download/v0.3.0/ktesio-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6cf2bd6e6abfc2c380d37f9640677cd34240d1b0f738b5657e6ba83f170a8a35"
+      url "https://github.com/iMagdy/ktesio/releases/download/v0.3.1/ktesio-v0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "d72ea4a8915c9ef36a74708c25bfd9e6d9d581308ff5e3a24c055d4bce1f4fca"
     end
 
     on_intel do
-      url "https://github.com/iMagdy/ktesio/releases/download/v0.3.0/ktesio-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "218885d0971b087e3586ae677a685fa4883915674307ce354c717eb48115b49c"
+      url "https://github.com/iMagdy/ktesio/releases/download/v0.3.1/ktesio-v0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b1e551bcf08602a84b311e7df8b4798c1ac7ea4f158eb5bffe44ac4229893f46"
     end
   end
 
   on_linux do
-    url "https://github.com/iMagdy/ktesio/releases/download/v0.3.0/ktesio-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "dc179b23cf219db03bd7b9389edfc2ab9f566aaf358c901051897c3e18b463bc"
+    url "https://github.com/iMagdy/ktesio/releases/download/v0.3.1/ktesio-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "9aa866140c893feb342db7b278440b4c2a9d8c86a0935415bafe5d1175d9636a"
   end
 
   def install
